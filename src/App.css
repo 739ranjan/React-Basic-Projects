@@ -1,0 +1,68 @@
+.app-container{
+    display: flex;
+}
+
+.sidebar{
+    height: 100vh;
+}
+
+.welcome-container{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-container{
+    height: 100vh;
+}
+
+.bgchanger-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bgchanger{
+    height: 80%;
+    width: 90%;
+}
+
+.color-pallate{
+    margin-top: 20px;
+}
+
+.color{
+    background-color: white;
+    width: 80px;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.calc-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    
+}
+.calc-button{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(239, 235, 235);
+    box-shadow: 0px 1px 4px 4px rgba(152, 149, 149, 0.4);
+    margin: 10px ;
+    font-size: 1.5rem;
+}
+
+.date-info{
+    width: 100px;
+}
