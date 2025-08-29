@@ -32,6 +32,12 @@ const List = () => {
             itemYear: 2007,
             itemDate: '22'
         },
+        {
+            itemName: 'Hello world',
+            itemMonth: 'August',
+            itemYear: 2025,
+            itemDate: '29'
+        },
     ];
 
     return(
